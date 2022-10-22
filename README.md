@@ -1,1 +1,1 @@
-# Mentus-Mental-Healt-Matters
+# Mentus-Mental-Health-Matters
