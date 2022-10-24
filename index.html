@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -12,35 +12,36 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
     <title>Mentus | Mental Health Wellness</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent position-absolute w-100">
         <div class="container">
-          <a class="navbar-brand fw-bold" href="#">Ment<span class="text-primary">us</span></a>
+          <a class="navbar-brand fw-bold" href="#home">Ment<span class="text-primary">us</span></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item d-flex">
-                <a class="nav-link aling-self-center text-dark" aria-current="page" href="#">Home</a>
+                <a class="nav-link aling-self-center text-dark" aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item d-flex">
-                <a class="nav-link aling-self-center text-dark" href="#">About</a>
+                <a class="nav-link aling-self-center text-dark" href="#about">About</a>
               </li>
               <li class="nav-item d-flex">
-                <a class="nav-link aling-self-center text-dark" href="#" >Descarga</a>
+                <a class="nav-link aling-self-center text-dark" href="#descarga" >Descarga</a>
               </li>
               <li class="nav-item">
-                <a class="btn btn-primary" href="#" >Contacto</a>
+                <a class="btn btn-primary" href="#contacto" >Contacto</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
 
-    <section>
+    <section class="home" id="home">
         <div class="row g-0 h-100">
             <div class="col-lg-6 d-flex">
                 <div class="content mx-auto align-self-center px-4 my-5">
@@ -57,7 +58,7 @@
         </div>
     </section>
 
-    <section class="d-flex">
+    <section class="about d-flex" id="about">
         <div class="row g-0 h-100">
           <div class="col-lg-6 d-flex">
             <div class="content mx-auto align-self-center px-4 my-5">
@@ -95,11 +96,11 @@
         </div>
     </section>
 
-    <section class="d-flex py-6">
+    <section class="descarga d-flex py-6" id="descarga">
       <div class="container align-self-center">
-        <div class="call-to-action bg-light">
+        <div class="img-fluid bg-light">
           <div class="row">
-            <div class="col-lg-7 d-flex text-center">
+            <div class="col-lg-7 d-flex">
               <div class="p-5 align-self-center">
               <h2 class="display-4 fw-bold mb-4">Descargar <span class="text-secondary">¡Ahora!</span></h2>
               <p class="lead fw-bold mb-4">Comienza un cambio a tu ritmo<span class="text-primary">.</span></p><p>y lleva un control de cada sesión directamente en Mentus.</p>
@@ -117,8 +118,8 @@
      </div>
     </section>
 
-    <section>
-      <div class="container py-6">
+    <section class="contacto" id="contacto">
+      <div class="container">
         <div class="bg-primary text-light text-center p-5 rounded w-75 mx-auto">
           <form>
             <h2 class="display-4 fw-bold">Rellena este formulario</h2>
@@ -137,10 +138,15 @@
               <input type="number" class="form-control" id="exampleInputNumber">
             </div>
             <button type="submit" class="btn btn-light fw-bold">Enviar</button>
+          </div>
+          <div class="right"></div>
+        </div>
           </form>
         </div>
       </div>
     </section>
+    
+     
     
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -152,5 +158,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
+    <small class="d-inline-block text-muted mt-5">Todos los derechos reservados | © 2022 Arkanist</small>
   </body>
 </html>

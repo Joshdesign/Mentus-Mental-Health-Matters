@@ -8,6 +8,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    
 }
 
 .navbar{
@@ -105,6 +106,7 @@ section{
     min-height: 40px;
 }
 
+
 @media (max-width: 992px){
     .navbar{
         position: relative!important;
@@ -125,6 +127,7 @@ section{
     .img-fluid{
         margin: 0 auto;
     }
+    
 
     .navbar-toggler:focus{
         box-shadow: none;
@@ -135,3 +138,4 @@ section{
     }
 
 }
+
